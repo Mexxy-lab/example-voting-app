@@ -1,5 +1,5 @@
-from flask import Flask, render_template, request, make_response, g
-from redis import Redis
+from flask import Flask, render_template, request, make_response, g # type: ignore
+from redis import Redis # type: ignore
 import os
 import socket
 import random
